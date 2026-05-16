@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0f172a;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.card h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.addBtn,
+.updateBtn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.addBtn {
+  background: #22c55e;
+}
+
+.updateBtn {
+  background: orange;
+}
+
+.taskList {
+  margin-top: 25px;
+}
+
+.taskCard {
+  background: #334155;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.editBtn {
+  background: #3b82f6;
+}
+
+.deleteBtn {
+  background: #ef4444;
+}
